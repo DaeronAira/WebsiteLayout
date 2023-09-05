@@ -46,10 +46,17 @@ body {
   display: flex;
 }
 
-.menu__item {
-
+.menu__item + .menu__item {
+  padding-left: 10px;
 }
 
 .menu__link {
   text-transform: uppercase;
+  padding: 43px 20px;
+  transition: all .3s;
+}
+
+.menu__link:hover {
+  background-color: #131313;
+  color: white;
 }
