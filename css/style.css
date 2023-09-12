@@ -279,6 +279,10 @@ body {
   margin-bottom: 100px;
 }
 
+.price__inner {
+  position: relative;
+}
+
 .form {
   max-width: 420px;
 }
@@ -334,8 +338,15 @@ body {
   clip-path: none;
 }
 
+.form__input-radio:checked + .form__bike {
+  display: block;
+}
+
 .form__bike {
   display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .form__radio-style {
