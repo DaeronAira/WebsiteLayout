@@ -67,7 +67,7 @@ body {
 }
 
 .bike {
-  padding: 100px 0 150px;
+  padding: 100px 0 0px;
 }
 
 .bike__inner {
@@ -112,11 +112,11 @@ body {
   font-size: 20px;
   line-height: normal;
   letter-spacing: 22px;
+  transition: all .3s
 }
 
 .bike__link:hover {
   background-color: #FF4040;
-  transition: all .3s
 }
 
 .bike-slider .slick-dots {
@@ -178,7 +178,8 @@ body {
 }
 
 .info {
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+  padding-top: 150px;
 }
 
 .info__inner {
@@ -213,6 +214,7 @@ body {
 
 .characteristics {
   margin-bottom: 150px;
+  padding-top: 100px;
 }
 
 .characteristics__head {
@@ -405,9 +407,49 @@ body {
   line-height: 24px;
   width: 100%;
   cursor: pointer;
+  transition: all .3s;
 }
 
 .form__btn:hover {
   background-color: #FF4040;
-  transition: all .3s;
+}
+
+.footer {
+  background-color: #131313;
+  color: white;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.footer__link {
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__social-link + .footer__social-link {
+  margin-left: 25px;
+}
+
+.footer__contacts {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__contacts-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts-link + .footer__contacts-link {
+  margin-top: 10px;
+}
+
+.footer__contacts-img {
+  margin-right: 10px;
 }
