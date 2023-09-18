@@ -469,6 +469,10 @@ body {
     padding-top: 50px;
     margin-bottom: 50px;
   }
+  .slider__img {
+    object-fit: cover;
+    height: 400px;
+  }
   .bike__link {
     margin-top: 30px;
   }
@@ -540,6 +544,13 @@ body {
     width: 40%;
     margin-bottom: 15px;
   }
+  .slider__img {
+    object-fit: cover;
+    height: 250px;
+  }
+  .slider__item {
+    padding-left: 10px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -582,6 +593,9 @@ body {
     padding: 15px 0px 15px 15px;
     letter-spacing: 0.9em;
     align-self: center;
+  }
+  .slider {
+    display: none;
   }
 }
 
